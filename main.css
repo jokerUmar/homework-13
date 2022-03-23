@@ -1,0 +1,144 @@
+/* bgc  #DE8A89 */
+
+.container{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  background-color:#DE8A89; 
+}
+
+.headings{
+  justify-content: end;
+  display: flex;
+}
+
+.headings>h1:first-child ,:visited{
+color: white;
+}
+
+.headings>h1{
+  font-size: 48px;
+  margin-left: 100px;
+  color: rgba(255,255, 255, 0.4);
+}
+
+.headings>h1:hover{
+color:rgba(255,255, 255, 0.9);
+}
+
+
+.text{
+  font-size: 22px;
+  width: 1000px;
+  color: white;
+  margin-left: 260px;
+}
+
+.data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card{
+  height: 140px;
+  padding: 100px 70px 100px 50px;
+  width: 300px;
+  background-color: black;
+  color: white ;
+}
+
+.card>h2{
+  color: #DE8A89;
+}
+
+
+.card>h1{
+  font-size: 36px;
+}
+
+
+.card-one{
+  background-color: rgb(80, 74, 74);
+  position: relative;
+}
+
+.card-two {
+  background-color:rgb(48, 48, 48) ;
+}
+
+.card-one::before{
+  z-index: 99;
+  position: absolute;
+  top: 35px;
+  left: -55px;
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid black;
+  border-bottom: 10px solid transparent;
+  content: '';
+
+}
+
+
+.position-data{
+  position: relative;
+  color: white;
+  background-color: black;
+  padding: 15px 120px;
+  font-size: 28px;
+  bottom: -90px;
+  left: -27px;
+}
+
+.position-data:hover{
+  position: absolute;
+  bottom: -20px;
+  left: 22px;
+}
+
+
+
+
+.item-one{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 2555, 255, 0.4);
+  top: 5px;
+  left: 40px;
+  
+}
+
+.item-one:hover{
+  background-color: rgba(255, 2555, 255, 0.8);  
+}
+
+
+
+.card-three::after{
+  z-index: 99;
+  position: absolute;
+  top: 35px;
+  right: 70px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-left: 10px solid black;
+  border-bottom: 10px solid transparent;
+  content: '';
+
+}
+
+.item-two{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 2555, 255, 0.4);
+  top: 5px;
+  right: 40px;
+}  
+
+.item-two:hover{
+  background-color: rgba(255, 2555, 255, 0.8);  
+}
